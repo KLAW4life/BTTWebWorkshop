@@ -1,16 +1,26 @@
-# React + Vite
+# React + Vite 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here we are going to turn our simple HTML, CSS and Javascript project into a react project.
 
-Currently, two official plugins are available:
+# Installing React 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+First, in your terminal you navigate to the the folder you want to create your react project. Then you run this command.
+```bash
+npm create vite@latest
+```
 
-## React Compiler
+Now we will be prompted with a few questions, you will select the following options and press enter:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Type 'y' to proceed
+2. Enter "project name"
+3. Use your arrow keys and select 'React' for the framework 
+4. For variant, select 'Javascript'
+5. Use rolldown-vite, select 'No'
+6. Install with npm and start now? Select 'Yes'
 
-## Expanding the ESLint configuration
+Now you should be seeing your project!
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Inorder to run the project again, you can run the commands:
+```bash
+npm run dev
+```
